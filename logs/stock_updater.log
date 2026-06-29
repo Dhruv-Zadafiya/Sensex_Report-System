@@ -1,0 +1,49 @@
+2026-06-20 22:45:44,844 [INFO] data.stock_fetcher: Fetching SENSEX data for ^BSESN...
+2026-06-20 22:45:46,285 [INFO] data.stock_fetcher: SENSEX data retrieved successfully for date 2026-06-19. Open: 76852.86, Close: 76802.90
+2026-06-20 22:45:46,868 [INFO] data.database: Database insertion successful. Document ID: 6a36cac281f08602afdf1563
+2026-06-20 22:45:46,871 [INFO] email_service.mail_sender: Connecting to SMTP server (smtp.gmail.com:587) to send email to liveupdate377@gmail.com...
+2026-06-20 22:45:50,284 [ERROR] email_service.mail_sender: SMTP Authentication failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c8bc31728fcsm2612754a12.10 - gsmtp'). Please ensure you are using a 16-character Gmail App Password.
+2026-06-20 22:45:50,296 [INFO] email_service.mail_sender: Local backup copy of the report saved to: H:\Stock Market Update\reports\local_copies\report_20260620_224550.html
+2026-06-20 22:45:50,316 [INFO] app: SENSEX update job sequence executed successfully.
+2026-06-20 22:46:29,472 [INFO] app: Initializing scheduler daemon...
+2026-06-20 22:46:29,472 [INFO] scheduler.scheduler: Scheduling updater job to run every 1 minute(s) for testing/demo.
+2026-06-20 22:46:29,472 [INFO] scheduler.scheduler: Scheduler background loop started. Press Ctrl+C to terminate.
+2026-06-20 22:57:16,721 [INFO] data.stock_fetcher: Fetching SENSEX data for ^BSESN...
+2026-06-20 22:57:17,867 [INFO] data.stock_fetcher: SENSEX data retrieved successfully for date 2026-06-19. Open: 76852.86, Close: 76802.90
+2026-06-20 22:57:18,421 [INFO] data.database: Database insertion successful. Document ID: 6a36cd76c295d3633d3c8cb3
+2026-06-20 22:57:18,425 [INFO] email_service.mail_sender: Connecting to SMTP server (smtp.gmail.com:587) to send email to liveupdate377@gmail.com...
+2026-06-20 22:57:22,816 [INFO] email_service.mail_sender: Stock market report email sent successfully!
+2026-06-20 22:57:22,834 [INFO] app: SENSEX update job sequence executed successfully.
+2026-06-22 15:50:34,334 [INFO] data.stock_fetcher: Fetching SENSEX data for ^BSESN...
+2026-06-22 15:50:35,829 [INFO] data.stock_fetcher: SENSEX data retrieved successfully for date 2026-06-22. Open: 77160.67, Close: 77094.07
+2026-06-22 15:50:38,995 [ERROR] data.database: Database insertion failed: SSL handshake failed: ac-5mducln-shard-00-01.h1togyr.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1028) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-5mducln-shard-00-00.h1togyr.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1028) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-5mducln-shard-00-02.h1togyr.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1028) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 6a390c71fb62c06254abc527, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-5mducln-shard-00-00.h1togyr.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-5mducln-shard-00-00.h1togyr.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1028) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-5mducln-shard-00-01.h1togyr.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-5mducln-shard-00-01.h1togyr.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1028) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-5mducln-shard-00-02.h1togyr.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-5mducln-shard-00-02.h1togyr.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1028) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-06-22 15:50:39,049 [INFO] email_service.mail_sender: Connecting to SMTP server (smtp.gmail.com:587) to send email to liveupdate377@gmail.com...
+2026-06-22 15:50:44,399 [INFO] email_service.mail_sender: Stock market report email sent successfully!
+2026-06-22 15:50:44,418 [INFO] app: SENSEX update job sequence executed successfully.
+2026-06-22 17:29:07,949 [CRITICAL] data.db: Failed to initialize MongoDB client: The resolution lifetime expired after 21.165 seconds: Server Do53:10.93.68.71@53 answered The DNS operation timed out.; Server Do53:10.93.68.71@53 answered The DNS operation timed out.; Server Do53:10.93.68.71@53 answered The DNS operation timed out.; Server Do53:10.93.68.71@53 answered The DNS operation timed out.; Server Do53:10.93.68.71@53 answered The DNS operation timed out.; Server Do53:10.93.68.71@53 answered The DNS operation timed out.; Server Do53:10.93.68.71@53 answered The DNS operation timed out.
+2026-06-22 17:29:08,012 [INFO] data.stock_fetcher: Fetching SENSEX data for ^BSESN...
+2026-06-22 17:29:16,885 [ERROR] yfinance: $^BSESN: possibly delisted; no price data found  (period=1d)
+2026-06-22 17:29:16,904 [WARNING] data.stock_fetcher: Latest day's data is empty. Fetching last 5 days history to get the most recent trading session...
+2026-06-22 17:29:16,917 [ERROR] yfinance: $^BSESN: possibly delisted; no price data found  (period=5d)
+2026-06-22 17:29:16,926 [ERROR] app: Job Failed
+Traceback (most recent call last):
+  File "H:\Stock Market Update\app.py", line 64, in run_job
+    stock = get_sensex_data()
+  File "H:\Stock Market Update\data\stock_fetcher.py", line 30, in get_sensex_data
+    raise ValueError(f"No stock data could be retrieved for ticker {ticker_symbol}.")
+ValueError: No stock data could be retrieved for ticker ^BSESN.
+2026-06-23 20:23:41,725 [INFO] data.stock_fetcher: Fetching SENSEX data for ^BSESN...
+2026-06-23 20:23:42,985 [INFO] data.stock_fetcher: SENSEX data retrieved successfully for date 2026-06-23. Open: 77086.05, Close: 76200.68
+2026-06-23 20:23:43,439 [INFO] data.db: Database insertion successful. Document ID: 6a3a9df7d5dd9e24db98a84c
+2026-06-23 20:23:43,441 [INFO] email_service.mail_sender: Connecting to SMTP server (smtp.gmail.com:587) to send email to liveupdate377@gmail.com...
+2026-06-23 20:23:51,772 [INFO] email_service.mail_sender: Stock market report email sent successfully!
+2026-06-23 20:25:51,494 [INFO] data.stock_fetcher: Fetching SENSEX data for ^BSESN...
+2026-06-23 20:25:53,126 [INFO] data.stock_fetcher: SENSEX data retrieved successfully for date 2026-06-23. Open: 77086.05, Close: 76200.68
+2026-06-23 20:25:53,548 [INFO] data.db: Database insertion successful. Document ID: 6a3a9e79a95bd42f063fb25c
+2026-06-23 20:25:53,550 [INFO] email_service.mail_sender: Connecting to SMTP server (smtp.gmail.com:587) to send email to liveupdate377@gmail.com...
+2026-06-23 20:25:57,963 [INFO] email_service.mail_sender: Stock market report email sent successfully!
+2026-06-29 21:06:27,333 [INFO] data.stock_fetcher: Fetching SENSEX data for ^BSESN...
+2026-06-29 21:06:32,230 [INFO] data.stock_fetcher: SENSEX data retrieved successfully for date 2026-06-29. Open: 77055.21, Close: 76728.37
+2026-06-29 21:06:32,945 [INFO] data.db: Database insertion successful. Document ID: 6a4291003f9d6e6292664651
+2026-06-29 21:06:32,947 [INFO] email_service.mail_sender: Connecting to SMTP server (smtp.gmail.com:587) to send email to liveupdate377@gmail.com...
+2026-06-29 21:06:41,820 [INFO] email_service.mail_sender: Stock market report email sent successfully!
